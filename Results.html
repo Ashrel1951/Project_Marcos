@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <style>
+        body {
+            background-color: #d4eae5;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        label {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        select {
+            padding: 8px;
+            font-size: 16px;
+            border: 2px solid #2c3e50;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        button {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid #2c3e50;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #1a252f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Check your results here</h2>
+        <label for="session">Session:</label>
+        <select id="session" name="session">
+            <option value=""></option>
+            <option value="2022-23">2022-23</option>
+            <option value="2023-24">2023-24</option>
+            <option value="2024-25">2024-25</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
